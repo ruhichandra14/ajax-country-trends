@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+        <title>Twitter trends test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">      
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">     
+	</head>
+    
+<body>
+<div class = "page-wrapper">
+
+	<nav id ="nav">
+			<h3 class = "nav-heading">Select countries</h3>
+			<h3 class = "nav-dropdown-heading">Select country</h3>
+			<div class ="country-selector">
+				<span class ="globe-image ion-earth"></span>
+				<select class = "nav-dropdown" id = "country-selector1">	
+					<option value =""></option>
+				</select>
+			</div>
+
+			<h3 class = "nav-dropdown-heading">Select country</h3>
+			<div class ="country-selector">
+				<span class ="globe-image ion-earth"></span>
+				<select class = "nav-dropdown" id = "country-selector2">	
+					<option value =""></option>
+				</select>
+			</div>
+
+			<h3 class="nav-heading">Common trends</h3>
+			<ul class = "common-trends-list" id = "common-trends-list1" >
+			</ul>
+			<ul class = "common-trends-list" id = "common-trends-list2" >
+			</ul>
+	</nav>
+
+	<section id ="trends-section">
+		<h3 class ="section-heading">Trends weight contribution</h3>
+		<canvas id="myCanvas1" class="myCanvas"></canvas>
+		<ul class = "common-trends-list" id = "common-trends-chart1" >
+		</ul>
+		<p id = "result1"></p>
+
+		<canvas id="myCanvas2"  class="myCanvas"></canvas>
+		<ul class = "common-trends-list" id = "common-trends-chart2" >
+		</ul>
+		<p id = "result2"></p>
+		
+	</section>
+</div>	
+
+<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.page-wrapper{
+    display: inline;
+}
+#nav{
+	width: 300px;
+    float: left;
+	min-height: 600px;
+	margin: 0 0 0 20px;
+	background-color: #F3F0F0;
+}
+.nav-heading{
+	text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    background-color: #D35400;
+}
+
+.country-selector{
+	display: inline;
+}
+.nav-dropdown-heading{
+	color: #50CBDC;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin:0 0 7px 61px;
+}
+.globe-image.ion-earth {
+    margin:0 0 0 30px;
+    color: #50CBDC;
+}
+.nav-dropdown{
+	margin: 0 0 22px 16px;
+    background-color: #F3F0F0;
+    border: 0;
+    border-bottom: 2px solid #50CBDC;
+    width: 70%;
+}
+.nav-dropdown:focus{
+	outline: none;
+}
+
+.nav-dropdown option{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.common-trends-list{
+	padding: 0;
+	margin: 0 0 0 31px;
+}
+
+.common-trends-list li{
+	color: #4399E6;
+	font-family: sans-serif;
+    font-weight: lighter;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 9px;
+}
+
+#trends-section{
+    float: right;
+    width: 700px;
+    min-height: 600px;
+    margin: 0 81px 0 0;
+}
+.section-heading{
+    padding: 35px 10px;
+    margin: 0 0 0 17%;
+    color: #34495E;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#common-trends-chart1,#common-trends-chart2{
+    float: right;
+}
+
+#myCanvas1,#myCanvas2 {
+    width: 500px;
+    margin: 68px 0 0 -168px;
+}
+
+#result1,#result2{
+    color: #34495E;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.displayBtn{
+    position: absolute;
+    bottom: 49px;
+    font-family: cursive;
+    color: azure;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #16a085;
+    font-weight: bold;
+    border-radius: 10px;
+}
